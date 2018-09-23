@@ -1,0 +1,32 @@
+{
+  "name": "youtubesearchengine",
+  "version": "1.0.0",
+  "description": "A youtube search engine React App with Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "NODE_ENV=production webpack --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yanlin Zhu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "youtube-api-search": "0.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}

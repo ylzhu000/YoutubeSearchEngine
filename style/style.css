@@ -1,0 +1,26 @@
+.select-bar {
+	margin:  20px;
+	text-align: center;
+}
+
+.select-bar input {
+	width: 75%;
+}
+
+.video-item img {
+	max-width: 64px;
+}
+
+.video-detail .detail {
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px dotted rgb(128,128,128);
+}
+
+.list-group-item {
+	cursor: pointer;
+}
+
+.list-group-item:hover {
+	color: rgb(30,144,255);
+}
